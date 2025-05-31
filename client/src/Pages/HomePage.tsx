@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export function HomePage() {
 
     return(
-        <main className="h-screen bg-[url('/centerBackground.png')] bg-cover bg-center flex justify-center">
+        <main className="h-[100%] bg-[url('/centerBackground.png')] bg-cover bg-center flex justify-center">
             <div className="flex w-[50%] h-full "> 
                 <div className="center flex-60/100  px-[16px]">
                     <div className="flex justify-between items-center bg-[#a1e0ef] rounded-b-[30px]">
@@ -17,7 +17,7 @@ export function HomePage() {
                     </div>
                     <img className="h-3/14 w-full rounded-[30px] my-[16px]" src="/banner.jpg" alt="" />
 
-                    <div className="bg-[#f0f0f0c9] rounded-[30px] py-[30px] pb-[8%]">
+                    <div className="bg-[#f0f0f0c9] rounded-[30px] py-[30px] pb-[8%] h-[65%]">
                         <div className="flex justify-evenly">
                             <button className="  font-['Silkscreen']">
                                 Home
