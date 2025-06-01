@@ -27,7 +27,7 @@ const config = {
     user: "sxygir",
     password: "Zhou0224",
     database: "master",
-    server: "Legion",
+    server: "172.23.64.1",
     options : {
         trustedConnection : true,
         trustServerCertificate: true, 
