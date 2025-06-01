@@ -1,10 +1,6 @@
-import { LeftWallpaper } from "../components/LeftWallPaper"
-import { RightWallpaper } from "../components/RightWallPaper"
 import { useState,useEffect,useRef } from "react";
 import { useUsers } from "../contexts/UserProvider";
 import { useNavigate } from "react-router-dom";
-
-
 
 
 export function SignUp () {
