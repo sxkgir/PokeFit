@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
+    "target": "ES2022",                      // modern target
+    "useDefineForClassFields": true,
+    "lib": ["ES2023", "DOM", "DOM.Iterable"], // include DOM + latest ES
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode (Vite) */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* React JSX */
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "types": ["react", "react-dom"],
+
+    /* Strictness & linting */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": [
+    "src",             // your app source
+    "vite.config.ts"   // Node config
+  ]
+}

@@ -5,8 +5,8 @@
   "main": "eslint.config.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && npx nodemon -L server.js",
-    "client": "cd frontend && npm run dev"
+    "server": "cd server && npx nodemon -L server.js",
+    "client": "cd client && npm run dev"
   },
   "keywords": [],
   "author": "",
